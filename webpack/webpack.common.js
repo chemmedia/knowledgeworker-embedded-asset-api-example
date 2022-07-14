@@ -9,7 +9,7 @@ module.exports = {
         path: paths.build,
         filename: '[name].[contenthash:8].js',
         chunkFilename: '[name].[contenthash:8].chunk.js',
-        publicPath: './',
+        publicPath: 'auto',
     },
     plugins: [
         new CleanWebpackPlugin(),

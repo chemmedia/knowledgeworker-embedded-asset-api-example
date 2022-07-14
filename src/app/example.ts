@@ -5,6 +5,7 @@ const expandable = document.getElementById('expandable');
 
 const create = () => {
     const element = document.createElement('p');
+    element.classList.add('kw-paragraph');
     element.innerHTML = lorem;
 
     return element

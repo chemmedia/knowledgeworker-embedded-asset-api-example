@@ -1,5 +1,12 @@
 import ResizeObserver from 'resize-observer-polyfill';
-import { setHeight, disableAutomaticCompletion, triggerCompleted } from 'knowledgeworker-embedded-asset-api';
+import {
+    setHeight,
+    configure,
+    completed,
+    setSuspendData,
+    setSharedData,
+    onInitialize, onSharedDataChanged
+} from 'knowledgeworker-embedded-asset-api';
 import './style.scss';
 import { start } from './example';
 const size = document.getElementById('size');
@@ -37,10 +44,28 @@ const ro = new ResizeObserver((entries) => {
 });
 
 ro.observe(document.body);
-disableAutomaticCompletion();
+configure({
+    autoCompletion: false
+});
 start();
 
+setSuspendData('mySuspendData');
+setSharedData('mySharedData');
+
+setTimeout(() => {
+    setSuspendData('mySuspendData--');
+    setSharedData('mySharedData--');
+}, 3000);
+
+onInitialize((config) => {
+    window.console.log('config', config);
+});
+
+onSharedDataChanged((sharedData => {
+    window.console.log('sharedData', sharedData);
+}));
+
 completedLink && completedLink.addEventListener("click", () => {
-    triggerCompleted();
+    completed();
     log(`Triggered completion event`);
 });
