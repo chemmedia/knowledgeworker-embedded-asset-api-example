@@ -45,7 +45,7 @@ Build a distribution folder by typing the following comand.
 yarn build
 ```
 
-Now you can archive the content of the `dist` folder as zip archive and upload it as media asset to Knowledgeworker Create.
+Now you can upload the zip archive from `dist` folder as media asset to Knowledgeworker Create.
 
 ## Versioning
 
