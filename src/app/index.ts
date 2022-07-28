@@ -1,7 +1,8 @@
 import ResizeObserver from 'resize-observer-polyfill';
-import { setHeight, disableAutomaticCompletion, triggerCompleted } from 'knowledgeworker-embedded-asset-api';
+import { completed, configure, setHeight } from 'knowledgeworker-embedded-asset-api';
 import './style.scss';
 import { start } from './example';
+
 const size = document.getElementById('size');
 const console = document.getElementById('console');
 const consoleContent = document.getElementById('console-content');
@@ -37,10 +38,12 @@ const ro = new ResizeObserver((entries) => {
 });
 
 ro.observe(document.body);
-disableAutomaticCompletion();
+configure({
+    autoCompletion: false
+});
 start();
 
 completedLink && completedLink.addEventListener("click", () => {
-    triggerCompleted();
+    completed();
     log(`Triggered completion event`);
 });

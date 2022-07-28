@@ -1,13 +1,13 @@
-# KnowledgeWorker Embedded Asset API Example
+# Knowledgeworker Create Embedded Asset API Example
 
 An example implementation of knowledgeworker-embedded-asset-api.
 
-This example code aims to ease the development of rich embedded assets for responsive [KnowledgeWorker](https://www.knowledgeworker.com/?utm_source=code&utm_campaign=embedded-asset-api-example) contents using the [knowledgeworker-embedded-asset-api](https://github.com/chemmedia/knowledgeworker-embedded-asset-api) javascript library.
+This example code aims to ease the development of rich embedded assets for responsive [Knowledgeworker Create](https://www.knowledgeworker.com/?utm_source=code&utm_campaign=embedded-asset-api-example) contents using the [knowledgeworker-embedded-asset-api](https://github.com/chemmedia/knowledgeworker-embedded-asset-api) and [knowledgeworker-embedded-asset-api-ui](https://github.com/chemmedia/knowledgeworker-embedded-asset-api-ui) javascript library.
 
 ## Getting Started
 
 These instructions will get you a copy of the example project up and running on your local machine for development and testing purposes. See deployment for notes on how to build a distribution folder.
-Build your own KnowledgeWorker Embedded Asset by forking this repository.
+Build your own Knowledgeworker Create Embedded Asset by forking this repository.
 
 ### Prerequisites
 
@@ -45,7 +45,7 @@ Build a distribution folder by typing the following comand.
 yarn build
 ```
 
-Now you can archive the content of the `dist` folder as zip archive and upload it as media asset to KnowledgeWorker.
+Now you can upload the zip archive from `dist` folder as media asset to Knowledgeworker Create.
 
 ## Versioning
 
