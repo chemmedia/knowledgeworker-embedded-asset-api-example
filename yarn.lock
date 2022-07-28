@@ -2268,10 +2268,10 @@ knowledgeworker-embedded-asset-api-ui@^1.0.0:
   resolved "https://registry.yarnpkg.com/knowledgeworker-embedded-asset-api-ui/-/knowledgeworker-embedded-asset-api-ui-1.0.0.tgz#b18b4a05b54bead6aa291e949079b0d87b92dda3"
   integrity sha512-2ScgOxK7AkmUJDsi/tX/MDItXRsJEdad2BuKOCr22jX4F+l+Y0cTrnQfRHO/yUFW+8FjwDjYIF6h7k3srPBAbA==
 
-knowledgeworker-embedded-asset-api@^2.0.0-rc.6:
-  version "2.0.0-rc.6"
-  resolved "https://registry.yarnpkg.com/knowledgeworker-embedded-asset-api/-/knowledgeworker-embedded-asset-api-2.0.0-rc.6.tgz#3960b7bccda86053ffde86bca5439ac99ea08c6f"
-  integrity sha512-N3F94JGQH5IbEOmoNV65BvYaKqx2WA5D5clgPoILSrOZsd+JjEvnIuEwqFJuKZL2ptqHJImVNEwxizG1ncMzdQ==
+knowledgeworker-embedded-asset-api@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/knowledgeworker-embedded-asset-api/-/knowledgeworker-embedded-asset-api-2.0.0.tgz#bea83087f3e9ea042d2978a618c6ec0f358a35a2"
+  integrity sha512-QzSa+BDfxeKb5KMXKDssWdz8ZkclE7MSPBITCszYmBmFkH6tL3X9SqWcTnT+UZpTU9f5SCutDT15Aq9iQK2kiw==
   dependencies:
     knowledgeworker-embedded-asset-api-ui "^1.0.0"
 
