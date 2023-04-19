@@ -38,12 +38,12 @@
     "start": "webpack serve --config webpack/webpack.dev.js"
   },
   "browserslist": [
-    "chrome >= 63",
+    "last 20 chrome major version",
     "last 5 chromeAndroid major version",
-    "firefox >= 58",
+    "last 20 firefox major version",
     "last 2 safari major version",
     "last 2 iOS major version",
-    "edge >= 17"
+    "last 20 edge major version"
   ],
   "dependencies": {
     "knowledgeworker-embedded-asset-api": "^2.0.0",
