@@ -1,41 +1,28 @@
 {
   "name": "knowledgeworker-embedded-asset-api-example",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "author": "chemmedia AG",
-  "description": "An example application on how to use javascript interface to integrate rich content packages into responsive Knowledgeworker Create contents.",
+  "description": "An example application on how to use the javascript interface to integrate rich content packages into responsive Knowledgeworker Create contents.",
   "keywords": [
     "knowledgeworker"
   ],
   "homepage": "https://knowledgeworker.com",
   "bugs": "https://github.com/chemmedia/knowledgeworker-embedded-asset-api-example/issues",
   "license": "MIT",
-  "main": "app/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/chemmedia/knowledgeworker-embedded-asset-api-example.git"
   },
+  "type": "module",
   "devDependencies": {
-    "clean-webpack-plugin": "^4.0.0",
-    "css-loader": "^6.7.1",
-    "html-webpack-plugin": "^5.5.0",
-    "mini-css-extract-plugin": "^2.6.0",
-    "node-sass": "^7.0.1",
-    "optimize-css-assets-webpack-plugin": "^6.0.1",
-    "postcss-loader": "^7.0.0",
-    "sass": "^1.52.1",
-    "sass-loader": "^13.0.0",
-    "style-loader": "^3.3.1",
-    "ts-loader": "^9.3.0",
-    "typescript": "^4.7.2",
-    "webpack": "^5.72.1",
-    "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^4.9.0",
-    "webpack-merge": "^5.8.0",
-    "zip-webpack-plugin": "^4.0.1"
+    "sass": "^1.75.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.8"
   },
   "scripts": {
-    "build": "webpack --config webpack/webpack.prod.js",
-    "start": "webpack serve --config webpack/webpack.dev.js"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
   "browserslist": [
     "chrome >= 63",
@@ -46,7 +33,7 @@
     "edge >= 17"
   ],
   "dependencies": {
-    "knowledgeworker-embedded-asset-api": "^2.0.0",
+    "knowledgeworker-embedded-asset-api": "^3.0.0-rc.3",
     "resize-observer-polyfill": "^1.5.1"
   }
 }
