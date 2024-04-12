@@ -15,7 +15,6 @@
   },
   "type": "module",
   "devDependencies": {
-    "@chemmedia/browserslist-config-knowledgeworker": "^2.0.0",
     "sass": "^1.75.0",
     "typescript": "^5.4.5",
     "vite": "^5.2.8"
@@ -26,7 +25,12 @@
     "preview": "vite preview"
   },
   "browserslist": [
-    "extends @chemmedia/browserslist-config-knowledgeworker"
+    "last 20 chrome major version",
+    "last 5 chromeAndroid major version",
+    "last 20 firefox major version",
+    "last 2 safari major version",
+    "last 2 iOS major version",
+    "last 20 edge major version"
   ],
   "dependencies": {
     "knowledgeworker-embedded-asset-api": "^3.0.0-rc.3",
