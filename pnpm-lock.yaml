@@ -13,6 +13,9 @@ dependencies:
     version: 1.5.1
 
 devDependencies:
+  '@chemmedia/browserslist-config-knowledgeworker':
+    specifier: ^2.0.0
+    version: 2.0.0
   sass:
     specifier: ^1.75.0
     version: 1.75.0
@@ -24,6 +27,10 @@ devDependencies:
     version: 5.2.8(sass@1.75.0)
 
 packages:
+
+  /@chemmedia/browserslist-config-knowledgeworker@2.0.0:
+    resolution: {integrity: sha512-tiQwoBdzfgj6cVDZV64pUR9lIX68KPZ8sxzKlY+ZO6VTW+oqCBYBUQKTIHlNF4gRprc/0lMgbQUAJLJ4RAZ3mA==}
+    dev: true
 
   /@esbuild/aix-ppc64@0.20.2:
     resolution: {integrity: sha512-D+EBOJHXdNZcLJRBkhENNG8Wji2kgc9AZ9KiPr1JuZjsNtyHzrsfLRrY0tk2H2aoFu6RANO1y1iPPUCDYWkb5g==}
