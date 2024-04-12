@@ -25,7 +25,9 @@
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
-  "browserslist": ["extends @chemmedia/browserslist-config-knowledgeworker"],
+  "browserslist": [
+    "extends @chemmedia/browserslist-config-knowledgeworker"
+  ],
   "dependencies": {
     "knowledgeworker-embedded-asset-api": "^3.0.0-rc.3",
     "resize-observer-polyfill": "^1.5.1"
