@@ -12,37 +12,36 @@ Build your own Knowledgeworker Create Embedded Asset by forking this repository.
 ### Prerequisites
 
 You will need the following tools to get started. Please have a look at the documentation on how to install them on your operating system.
-- node https://nodejs.org/
-- npm https://www.npmjs.com/
-- Yarn https://yarnpkg.com/
+- node v.18+ https://nodejs.org/
+- pnpm https://pnpm.io/
 
 ### Installing
 
 Download and install dependencies by typing:
 
 ```
-yarn
+pnpm i
 ```
 
 ### Development
 
-This example is based on [webpack](https://webpack.js.org/). We created a yarn shortcut, so you can start a development server easily by typing:
+This example is based on [vite](https://vitejs.dev/). We created a pnpm script so you can start a development server easily by typing:
 
 ```
-yarn start
+pnpm dev
 ```
 
-After you see the `Compiled successfully.` you can open [http://localhost:8080](http://localhost:8080) in your browser.
+After you see the `VITE ready` you can open [http://localhost:5173](http://localhost:5173) in your browser.
 
-Create your own asset by modifying `src/public/index.html` and `src/app/index.ts` and its imports.
+Create your own asset by modifying `index.html` and `src/app/index.ts` and its imports.
 
 
 ## Deployment
 
-Build a distribution folder by typing the following comand.
+Build a distribution folder by typing the following command.
 
 ```
-yarn build
+pnpm build
 ```
 
 Now you can upload the zip archive from `dist` folder as media asset to Knowledgeworker Create.

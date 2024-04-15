@@ -14,15 +14,22 @@
     "url": "https://github.com/chemmedia/knowledgeworker-embedded-asset-api-example.git"
   },
   "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "knowledgeworker-embedded-asset-api": "^3.0.0-rc.3",
+    "resize-observer-polyfill": "^1.5.1"
+  },
   "devDependencies": {
     "sass": "^1.75.0",
     "typescript": "^5.4.5",
     "vite": "^5.2.8"
   },
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+  "engines": {
+    "node": ">=18"
   },
   "browserslist": [
     "last 20 chrome major version",
@@ -31,9 +38,5 @@
     "last 2 safari major version",
     "last 2 iOS major version",
     "last 20 edge major version"
-  ],
-  "dependencies": {
-    "knowledgeworker-embedded-asset-api": "^3.0.0-rc.3",
-    "resize-observer-polyfill": "^1.5.1"
-  }
+  ]
 }
