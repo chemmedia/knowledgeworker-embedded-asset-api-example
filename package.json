@@ -20,7 +20,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "knowledgeworker-embedded-asset-api": "^3.0.0-rc.4",
+    "knowledgeworker-embedded-asset-api": "^3.0.0",
     "resize-observer-polyfill": "^1.5.1"
   },
   "devDependencies": {

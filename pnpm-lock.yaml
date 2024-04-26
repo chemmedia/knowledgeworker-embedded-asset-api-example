@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   knowledgeworker-embedded-asset-api:
-    specifier: ^3.0.0-rc.4
-    version: 3.0.0-rc.4
+    specifier: ^3.0.0
+    version: 3.0.0
   resize-observer-polyfill:
     specifier: ^1.5.1
     version: 1.5.1
@@ -521,8 +521,8 @@ packages:
     engines: {node: '>=18'}
     dev: false
 
-  /knowledgeworker-embedded-asset-api@3.0.0-rc.4:
-    resolution: {integrity: sha512-cKwM9rB9kcnUQ9uwRUgOQRkjAWuLqhgfBzcFT3MesylUZDcDEsrYBKWCA2iD+vCLvwgRJKjEkPJJrB+Pe/CUew==}
+  /knowledgeworker-embedded-asset-api@3.0.0:
+    resolution: {integrity: sha512-ohiFwGXPV5XeQiW/RcnBQLI98gHuEKTDvQKgnUUTGn+AGfWpu7T9iIVzFA3EKe+JkTjyIFTfwrDNal+ZgEtcMg==}
     engines: {node: '>=18'}
     dependencies:
       knowledgeworker-embedded-asset-api-ui: 2.0.0
