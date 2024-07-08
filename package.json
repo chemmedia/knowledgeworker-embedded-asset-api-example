@@ -24,7 +24,7 @@
     "resize-observer-polyfill": "^1.5.1"
   },
   "devDependencies": {
-    "@types/node": "^20.12.7",
+    "@types/node": "^20.14.10",
     "sass": "^1.75.0",
     "typescript": "^5.4.5",
     "vite": "^5.2.8",
