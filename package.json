@@ -24,11 +24,11 @@
     "resize-observer-polyfill": "^1.5.1"
   },
   "devDependencies": {
-    "@types/node": "^20.12.7",
-    "sass": "^1.75.0",
-    "typescript": "^5.4.5",
-    "vite": "^5.2.8",
-    "vite-plugin-zip-pack": "^1.2.3"
+    "@types/node": "^22.19.1",
+    "sass": "^1.94.2",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.4",
+    "vite-plugin-zip-pack": "^1.2.4"
   },
   "engines": {
     "node": ">=18"
