@@ -31,7 +31,7 @@
     "vite-plugin-zip-pack": "^1.2.4"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "browserslist": [
     "last 20 chrome major version",
