@@ -1,6 +1,6 @@
 {
   "name": "knowledgeworker-embedded-asset-api-example",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "author": "chemmedia AG",
   "description": "An example application on how to use the javascript interface to integrate rich content packages into responsive Knowledgeworker Create contents.",
   "keywords": [
