@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       knowledgeworker-embedded-asset-api:
-        specifier: ^3.1.0
-        version: 3.1.0
+        specifier: ^4.0.0
+        version: 4.0.0
       resize-observer-polyfill:
         specifier: ^1.5.1
         version: 1.5.1
@@ -470,13 +470,13 @@ packages:
   jszip@3.10.1:
     resolution: {integrity: sha512-xXDvecyTpGLrqFrvkrUSoxxfJI5AH7U8zxxtVclpsUtMCq4JQ290LY8AW5c7Ggnr/Y/oK+bQMbqK2qmtk3pN4g==}
 
-  knowledgeworker-embedded-asset-api-ui@2.1.1:
-    resolution: {integrity: sha512-IC44BPyf2frCx1v5arEVDmTErmY68pVBUWx84Jn7WQwc9XXZ73ijdFsp7WAIj8AdnwYSopRFdK3squ33PwvI8w==}
-    engines: {node: '>=18'}
+  knowledgeworker-embedded-asset-api-ui@3.0.0:
+    resolution: {integrity: sha512-gWaRfCzleVTYZglLQCajsuG4rtc0/YnRj8GV2oaP5uz4Ly5/Nv/HRFqr/7Gg77hO/b5nFRkVGzxRVZiW0R81bQ==}
+    engines: {node: '>=20'}
 
-  knowledgeworker-embedded-asset-api@3.1.0:
-    resolution: {integrity: sha512-nOvQ+wTm7vum+2O6MappnAo8bQHNYreZ8KP03Cl80VqO5GU9TSSwRBFbt1SqgAhiRvnXpyGtcRLbZGQHd8PUvQ==}
-    engines: {node: '>=18'}
+  knowledgeworker-embedded-asset-api@4.0.0:
+    resolution: {integrity: sha512-xqSEoWG1UYeWOFAM/Hcz4UIAy1q8pfeahf6QoPRrZRAt1i1YMXzrU5ypJ9I2kcayRMG0icF5EO4Ggj8RXU+gMQ==}
+    engines: {node: '>=20'}
 
   lie@3.3.0:
     resolution: {integrity: sha512-UaiMJzeWRlEujzAuw5LokY1L5ecNQYZKfmyZ9L7wDHb/p5etKaxXhohBcrw0EYby+G/NA52vRSN4N39dxHAIwQ==}
@@ -909,11 +909,11 @@ snapshots:
       readable-stream: 2.3.8
       setimmediate: 1.0.5
 
-  knowledgeworker-embedded-asset-api-ui@2.1.1: {}
+  knowledgeworker-embedded-asset-api-ui@3.0.0: {}
 
-  knowledgeworker-embedded-asset-api@3.1.0:
+  knowledgeworker-embedded-asset-api@4.0.0:
     dependencies:
-      knowledgeworker-embedded-asset-api-ui: 2.1.1
+      knowledgeworker-embedded-asset-api-ui: 3.0.0
 
   lie@3.3.0:
     dependencies:
