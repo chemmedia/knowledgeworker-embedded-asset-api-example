@@ -12,7 +12,7 @@ Build your own Knowledgeworker Create Embedded Asset by forking this repository.
 ### Prerequisites
 
 You will need the following tools to get started. Please have a look at the documentation on how to install them on your operating system.
-- node v.18+ https://nodejs.org/
+- node v.20+ https://nodejs.org/
 - pnpm https://pnpm.io/
 
 ### Installing

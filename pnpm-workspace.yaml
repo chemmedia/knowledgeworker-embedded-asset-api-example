@@ -1,0 +1,9 @@
+minimumReleaseAge: 10080
+minimumReleaseAgeExclude:
+  - '@chemmedia/*'
+  - 'knowledgeworker-embedded-asset-api'
+  - 'knowledgeworker-embedded-asset-api-ui'
+
+ignoredBuiltDependencies:
+  - '@parcel/watcher'
+  - 'esbuild'
