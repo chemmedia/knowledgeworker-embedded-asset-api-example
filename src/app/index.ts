@@ -13,8 +13,8 @@ const log = (message: string) => {
     if (console && consoleContent) {
         consoleContent.innerHTML = message;
         console.classList.add('visible');
-        clearTimeout(consoleTimer);
-        setTimeout(
+        window.clearTimeout(consoleTimer);
+        consoleTimer = window.setTimeout(
             () => {
                 console.classList.remove('visible');
             },
